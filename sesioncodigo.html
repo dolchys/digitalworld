@@ -1,0 +1,11 @@
+                      <?php
+                      session_start();
+                      if( ! isset($_SESSION['usuario']) ){
+                        echo "necesitas iniciar session";
+                      header("location:session.php");
+                      }
+                      else{
+                       echo "Bienvenido :".$_SESSION['usuario'];
+
+                        }
+                        ?>

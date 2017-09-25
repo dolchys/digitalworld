@@ -1,0 +1,100 @@
+
+
+/* Actualizacion cliente */
+.mantenimiento{ /* div Actualizacion cliente */
+margin:20px auto;
+background:#424949;
+width:90%;
+/*margin: 0 auto;*/
+text-align: center;
+border-radius: 5px;
+height:auto;
+color: #fff;
+padding-top:40px;
+
+}
+
+.mantenimiento h1{
+  font-size:20px;
+  color: white;
+}
+
+.mantenimiento form {
+text-align: left;
+color:#fff;
+background-color:#292929;
+width:auto;
+height: auto;
+margin-top: 10px;
+padding:20px;
+  border:1px solid green;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;  
+  
+  /* box-shadow:inset 0 0 10px #000; */ /* efecto hacia adentro  */
+margin:0 auto;
+margin-bottom:0px;
+}
+
+.mantenimiento label {
+display: block;
+font-weight: bold;
+text-align: right;
+width: 140px;
+float:left;
+margin: 0 10px 0 0;
+padding: 2px 0px;
+}
+
+.mantenimiento form input{
+  height:35px;
+  padding:0px 5px;
+  margin:10px  20px;
+  color:#00b159;
+  text-align:center;
+  float: left;
+  font-size: 12px;
+  padding:4px 2px;
+
+}
+
+
+
+
+.mantenimiento form button{
+  width:135px;
+  margin:20px 0px 20px 170px;
+  height:50px;
+  border: 1px #232323;
+  color:#fff;
+  box-shadow:0px 2px 0px #000;
+  -moz-box-shadow:0px 2px 0px #000;
+  -webkit-box-shadow:0px 2px 0px #000;
+  -o-box-shadow:0px 2px 0px #000;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -o-border-radius:3px;
+  -webkit-border-radius:3px;
+  background: #2c3e50;
+  padding:4px 2px;
+
+}
+
+.mantenimiento form button:hover {
+background:#27ae60;
+
+}
+
+.mantenimiento form button:active {
+background: #2c3e50;
+
+}
+
+.mantenimiento textarea {
+  margin:3px 0px 0px 20px;
+}
+
+.client select {
+margin: 3px 0px 0px ;
+}

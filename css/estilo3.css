@@ -1,0 +1,602 @@
+* { /*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+padding: 0;
+margin: 0;
+}
+
+header {
+background:#404040;
+width:100%;
+position: fixed;
+color: #fff;
+}
+
+
+nav { /* Menu de navegacion hacia la izquierda*/
+float:left;
+}
+
+nav ul {
+list-style:none;
+overflow: hidden;
+}
+
+nav ul li {
+float: left;
+font-size: 16px;
+}
+
+nav ul li  a {
+display: block;
+padding: 20px;
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li:hover{
+background:#2ecc71;
+}
+
+.usuario i{
+	color:#69ee41;
+	
+	}
+
+
+footer {
+background:#404040;
+width:950px;
+height:	80px;
+text-align:center;
+color: #fff;
+margin:-80px auto 0;
+position: relative;
+
+}
+footer h1{
+	font-family:monospace;
+}
+
+footer h5 i{
+	color:#69ee41;
+}
+	
+
+.principal{
+padding-top:120px;
+/*background:#dfe3ee;*/
+width:100%; 
+height:auto;
+bottom: 0;
+/*padding-bottom:120px;  */
+padding-bottom:270px;
+margin: 0 auto;
+text-align:center;
+
+}
+
+
+.secundario{
+/*border: 1px solid red;*/
+margin-top:150px;
+font-family:monospace;
+/*color:#00b159;*/
+background:#292929;
+padding:30px 10px 20px 10px; 
+height: auto;
+bottom: 0;
+border-radius:5px 5px 10px 10px;
+max-width: 100%;
+min-width: 300px;
+margin: 0 auto;
+display:inline-block;
+overflow: hidden;
+opacity: 0.7;
+}
+
+
+
+.logout {
+
+display:block;
+color:#fff;
+top: 13px;
+right:12px;
+text-decoration:none;
+padding:7px 10px;
+line-height:normal;
+font-size:1em;
+font-family:monospace;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+float: right;
+position: relative;
+}
+
+.logout:hover {
+background:#e74c3c;
+border-radius:20px;
+text-decoration:none;
+color: white;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.logout i {
+	color: red;
+}
+
+.logout:hover i{
+color: white;
+}
+
+
+.usuario { /* el icono que muestra el usuario conectado*/
+position:relative;
+right:15px;
+float: right;
+top:20px;
+font-size:1em;
+/*font-weight:bold;*/
+font-family:monospace;
+width: auto; 
+height: auto;
+}
+
+
+.volver {
+
+display:block;
+color:#000;
+text-decoration:none;
+padding:10px 20px;
+line-height:normal;
+font-size:18px;
+font-weight:bold;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+float:right;
+
+}
+.volver:hover {
+background:#3762d2;
+border-radius:50px;
+text-decoration:none;  
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+ 
+/*
+table,td{
+border:1px solid #ADFF2F;
+background-color:#fff;
+}*/
+/*
+table th{
+background-color:#87CEEB;
+
+color:#fff;
+}*/
+
+#izq {
+	float: left;
+width: 300px;
+padding: 10px;
+margin:40px;
+color:#fff;
+background: #039;
+}
+#der {
+	float: right;
+width: 300px;
+padding: 10px;
+margin:40px;
+color:#fff;
+background: #039;
+}
+
+#capaexpansion{
+	position:relative;
+	display:none;
+}
+#capaexpansion1{
+	position:relative;
+	display:none;
+}
+select {
+   background: #f8f8f8;
+   color:#888;
+   width: 160px;
+   padding: 0px 8px;
+   margin: 20px 5px;
+   font-size: 14px;
+   line-height: 1;
+   border: none;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+
+
+.mant{ /* div de mantemimiento */
+margin:20px auto;
+background:#424949;
+width:80%;
+/*margin: 0 auto;*/
+text-align: center;
+border-radius: 5px;
+height:auto;
+color: #fff;
+padding-top:40px;
+
+}
+
+.mant h1{
+	font-size:20px;
+	color: white;
+}
+
+.mant form {
+text-align: left;
+color:#fff;
+background-color:#292929;
+width:auto;
+height: auto;
+margin-top: 10px;
+padding:20px;
+	/*border:1px solid #4e4d4d;*/
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;  
+
+	/* box-shadow:inset 0 0 10px #000; */ /* efecto hacia adentro  */
+margin:0 auto;
+margin-bottom:0px;
+}
+
+.mant legend {
+text-align:center;
+color:#2ecc71;
+font-size:16px; 
+
+/*background:#575757;*/
+padding: 7px;
+box-shadow: 10px green;	
+
+}
+
+.mant form input{
+	height:35px;
+	padding:0px 5px;
+	margin:10px  20px;
+	color:#00b159;
+	text-align:center;
+}
+
+
+
+
+.mant form button{
+	width:135px;
+	margin:20px 0px 30px 30px;
+	height:50px;
+	border: 1px #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+	-moz-box-shadow:0px 2px 0px #000;
+	-webkit-box-shadow:0px 2px 0px #000;
+	-o-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #2c3e50;
+}
+
+.mant form button:hover {
+background:#27ae60;
+
+}
+
+.mant form button:active {
+background: #2c3e50;
+
+}
+
+.otro{
+
+/*background:#dfe3ee;*/
+width:auto; 
+padding-bottom:320px;
+margin: 0 auto;
+text-align:center;
+color: #fff;
+}
+
+
+
+/*.busqueda{
+margin-bottom:5px;
+margin-top:5px;
+color:#00b159;
+background:#292929;
+padding:5px 5px 5px 5px;
+height: auto;
+margin: auto;
+border-radius:10px 10px 10px 10px;
+width:550px;
+
+} */
+
+
+img.d{
+	width: 80px;
+	height: 70px;
+	margin-left: 15%;
+	z-index: 1;
+	position: absolute; 
+	border-radius:800px;
+	overflow:hidden;
+	background-color:#666;
+	margin-top:8px;
+} 
+
+img.d:hover {
+background-color:#7f8c8d;
+}
+
+
+
+/* formulario de Busqueda de registro clientes en mantenimiento */
+#busqueda{
+	width: 400px;
+	margin: 4px;
+	margin-top: 8px;
+	display: inline-block;
+	
+}
+
+#cliente{ /*Este va con la busqueda*/
+    width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 0 none;
+    height: 52px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #34495e;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white;
+}
+#cliente:focus {
+    background:#2ecc71;
+}
+
+
+#buscar { /*Maquetacion del boton buscar*/
+    border: 0 none;
+    width: 103px;
+    float: right;
+    padding: 0;
+    text-align: center;
+    height: 52px;
+    cursor: pointer;
+    background-color:#154360;
+    color: white;
+    font-family: sans-serif;
+}
+
+#buscar:hover{
+	background-color: #2E86C1;
+
+}
+
+/* Actualizacion cliente */
+.cliente{ /* div Actualizacion cliente */
+/*margin:10px auto;*/
+background:#424949;
+width:90%;
+margin: 0 auto;
+text-align: center;
+border-radius: 5px;
+height:auto;
+color: #fff;
+padding-top:40px;
+}
+
+.cliente h1{
+	font-size:20px;
+	color: white;
+}
+
+.cliente form {
+text-align: left;
+color:#fff;
+background-color:#292929;
+width:auto;
+height: auto;
+margin-top: 10px;
+padding:20px;
+	border:1px solid green;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;  
+	
+	/* box-shadow:inset 0 0 10px #000; */ /* efecto hacia adentro  */
+margin:0 auto;
+margin-bottom:0px;
+}
+
+.cliente label {
+display: block;
+font-weight: bold;
+text-align: right;
+width: 140px;
+float:left;
+margin: 0 10px 0 0;
+padding: 2px 0px;
+}
+
+.cliente form input{
+	height:35px;
+	padding:0px 5px;
+	margin:10px  20px;
+	color:#00b159;
+	text-align:center;
+	float: left;
+	font-size: 12px;
+	padding:4px 2px;
+
+}
+
+.cliente form button{
+	width:135px;
+	margin:20px 0px 20px 170px;
+	height:50px;
+	border: 1px #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+	-moz-box-shadow:0px 2px 0px #000;
+	-webkit-box-shadow:0px 2px 0px #000;
+	-o-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #2c3e50;
+	padding:4px 2px;
+
+}
+
+.cliente form button:hover {
+background:#27ae60;
+
+}
+
+.cliente form button:active {
+background: #2c3e50;
+
+}
+
+.cliente textarea {
+	margin:3px 0px 0px 20px;
+}
+
+.ponerprecio{
+	height: auto;
+	width: 500px;
+	background: #424949;
+	text-align: center;
+	color: #28B463;
+	display:inline-block; /*centra un div */
+	border-radius: 5px;
+	padding-top: 8px;
+	bottom: 0px;
+
+	/* para checar poner el div debajo del header */
+}
+
+.ponerprecio form{
+	overflow: hidden;
+	background: #292929;
+	color: white;
+	height:auto;
+	border-radius: 0px 0px 5px 5px;
+	
+	margin-top: 40px;
+	padding-bottom: -202px;
+
+
+}
+/*
+.ponerprecio button{
+	height: 50px;
+	background-color:#515A5A ;
+	border-radius: 5px;
+	width: 80px;
+	padding-bottom: 5px;
+	margin:130px 0px 0px 25px;
+	border:none;
+	color: white;
+*/
+}
+
+.ponerprecio textarea{
+	height: 60px;
+	width: 280px;
+	border-top: 10px;
+	border-bottom: 10px;
+	}
+.ponerprecio input{
+	padding:0px 10px;
+	width: 280px;
+	height: 35px;
+	margin: 10px 30px;
+	text-align: center;
+}
+
+.ponerprecio form button{
+	width:135px;
+	margin:20px 0px 30px 30px;
+	height:50px;
+	border: 1px #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+	-moz-box-shadow:0px 2px 0px #000;
+	-webkit-box-shadow:0px 2px 0px #000;
+	-o-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #2c3e50;
+}
+
+.ponerprecio form button:hover {
+background:#27ae60;
+
+}
+
+.ponerprecio form button:active {
+background: #2c3e50;
+
+}
+
+#clase button{
+	width:100px;
+	margin:30px 5px 15px 10px;
+	height:50px;
+	border: 1px #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+	-moz-box-shadow:0px 2px 0px #000;
+	-webkit-box-shadow:0px 2px 0px #000;
+	-o-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #2c3e50;
+}

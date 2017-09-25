@@ -1,0 +1,249 @@
+
+	
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+	
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background:#d35400;
+}
+
+.logout {
+
+display:block;
+color:#fff;
+text-decoration:none;
+padding:10px 20px;
+line-height:normal;
+font-size:18px;
+font-weight:bold;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+float: right;
+
+}
+
+.logout:hover {
+background:#3762d2;
+border-radius:50px;
+text-decoration:none;  
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+
+.contenido {
+  padding-top: 80px;
+
+}
+
+	
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+#secundario{
+	
+background:#292929;
+  position:absolute;
+  color: #fff;
+  border-radius:20px 20px 20px 20px;
+-moz-border-radius:20px 20px 20px 20px;
+-webkit-border-radius:20px 20px 20px 20px;
+-o-border-radius:20px 20px 20px 20px;
+			margin:0;
+			left:350px;
+			top:150px;
+			height:auto;
+			padding: 20px 30px;
+			width:400px;
+
+
+}
+
+
+
+
+* {
+margin: 0px;
+padding: 0px;
+
+}
+form {
+	background:#333333;
+	width:360px;
+	/*border:1px solid #4e4d4d;*/
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;  
+	box-shadow:inset 0 0 10px #000;
+	margin:30px auto;
+	color: #7f8c8d;
+	
+}
+
+form h1 {
+	text-align:center;
+	color:#fff;
+	font-weight:normal;
+	font-size:40pt;
+	margin:30px 0px;
+}
+
+form input{
+	width:280px;
+	height:35px;
+	padding:0px 10px;
+	margin:10px 30px;
+	color:#6d6d6d;
+	text-align:center;
+	
+}
+
+form button{
+	width:135px;
+	margin:20px 0px 30px 30px;
+	height:50px;
+	border: 1px #232323;
+	color:#fff;
+	box-shadow:0px 2px 0px #000;
+	-moz-box-shadow:0px 2px 0px #000;
+	-webkit-box-shadow:0px 2px 0px #000;
+	-o-box-shadow:0px 2px 0px #000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	background: #2c3e50;
+}
+
+form button:hover {
+background:#27ae60;
+
+}
+
+form button:active {
+background: #2c3e50;
+
+}
+
+
+
+#capaexpansion{
+	position:relative;
+	display:none;
+}
+#capaexpansion1{
+	position:relative;
+	display:none;
+}
+
+select {
+   background: #f8f8f8;
+   color:#888;
+   width: 160px;
+   padding: 0px 8px;
+   margin: 20px 5px;
+   font-size: 14px;
+   line-height: 1;
+   border: none;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+.volver {
+display:block;
+color:#fff;
+text-decoration:none;
+padding:10px 20px;
+line-height:normal;
+font-size:18px;
+font-weight:bold;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease;
+float: right;
+}
+
+.volver:hover {
+background:#7ACC52;
+border-radius:50px;
+text-decoration:none;  
+}
+
+#consulta {
+background: #7ACC52;
+position: absolute;
+top:500px;
+left:50px;
+overflow: hidden;
+}
+
+#principal{
+width:100%; 
+margin:auto; 
+height:auto;
+min-height:100%;
+
+}
+
+
+html, body{ height: 100%; }
+html{ overflow: auto; }
+
+
+
+footer{
+
+background:#404040;
+display:table;
+width:950px;
+bottom:0;
+clear: both;
+text-align:center;
+margin:auto;
+}
+
